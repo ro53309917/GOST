@@ -1,0 +1,355 @@
+Using pre-set license
+Built from '2022.1/staging' branch; Version is '2022.1.0b11 (9aaa156c3014) revision 10136085'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit CoreCountrySpecific' Language: 'zh' Physical Memory: 15734 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Unity 2022.1.0b11\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+D:/ghost
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+13494
+Successfully changed project path to: D:/ghost
+D:/ghost
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 86.17 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.1.0b11 (9aaa156c3014)
+[Subsystems] Discovering subsystems at path D:/Unity 2022.1.0b11/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/ghost/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Graphics (ID=0x1636)
+    Vendor:   ATI
+    VRAM:     7867 MB
+    Driver:   27.20.11028.11001
+Initialize mono
+Mono path[0] = 'D:/Unity 2022.1.0b11/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity 2022.1.0b11/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity 2022.1.0b11/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56288
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity 2022.1.0b11/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001973 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 89.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.841 seconds
+Domain Reload Profiling:
+	ReloadAssembly (842ms)
+		BeginReloadAssembly (180ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (544ms)
+			LoadAssemblies (180ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (125ms)
+				TypeCache.Initialize (124ms)
+					TypeCache.ScanAssembly (122ms)
+				ResolveRequiredComponents (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (336ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (7ms)
+				RefreshPlugins (89ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (159ms)
+				ProcessInitializeOnLoadMethodAttributes (70ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.018441 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\ghost\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\ghost\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in D:\ghost\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in D:\ghost\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in D:\ghost\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in D:\ghost\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in D:\ghost\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in D:\ghost\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in D:\ghost\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in D:\ghost\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x00032] in D:\ghost\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:48 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in D:\ghost\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.671 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1672ms)
+		BeginReloadAssembly (178ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (1363ms)
+			LoadAssemblies (198ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (282ms)
+				TypeCache.Initialize (277ms)
+					TypeCache.ScanAssembly (271ms)
+				ResolveRequiredComponents (4ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (836ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (724ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3465 Unused Serialized files (Serialized files now loaded: 1)
+Unloading 36 unused Assets / (128.6 KB). Loaded Objects now: 3930.
+Memory consumption went from 0.52 GB to 0.52 GB.
+Total: 11.655400 ms (FindLiveObjects: 0.369000 ms CreateObjectMapping: 0.116200 ms MarkObjects: 11.022700 ms  DeleteObjects: 0.145300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 145061.612926 seconds.
+  path: Assets/animation/LOGO_down.anim
+  artifactKey: Guid(4b2448666e577814fbc8e86c1082a4a5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/animation/LOGO_down.anim using Guid(4b2448666e577814fbc8e86c1082a4a5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ccf16bf77eadf55069fb79dacaf42a40') in 0.091167 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/chartlet/Player.psd
+  artifactKey: Guid(db031a0f8ba38e7498206fb874501582) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/chartlet/Player.psd using Guid(db031a0f8ba38e7498206fb874501582) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '09741e1f07dab3e410e5cdb88746776b') in 0.052634 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/chartlet/LOGO.png
+  artifactKey: Guid(d646778f451dcd44eb8e563ecc4da4a9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/chartlet/LOGO.png using Guid(d646778f451dcd44eb8e563ecc4da4a9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cd44adb21c707d3a940a3d35429ae9fe') in 0.079445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/boltTest/New State Graph.asset
+  artifactKey: Guid(d59487b4d10be2848ac5dbccac8f5a12) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/boltTest/New State Graph.asset using Guid(d59487b4d10be2848ac5dbccac8f5a12) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '96e9b2ca182bb7231b3a89342e95e272') in 0.010060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers/PropertyProvider_TMPro_TextAlignmentOptions.cs
+  artifactKey: Guid(e7442146989ee1e4ca4d57cca905d4bb) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers/PropertyProvider_TMPro_TextAlignmentOptions.cs using Guid(e7442146989ee1e4ca4d57cca905d4bb) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0e69def5c8e475d883add849f4b0145e') in 0.010032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/material/star.mat
+  artifactKey: Guid(c9379b46a396b9c459f425b9ae54a8ea) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/material/star.mat using Guid(c9379b46a396b9c459f425b9ae54a8ea) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '32eb54ffdafdeafebce96020d8028eff') in 0.010939 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers/PropertyProvider_TMPro_TMP_SpriteGlyph.cs
+  artifactKey: Guid(ccf99d4f81c7f2d4e88960c513b9d4bd) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers/PropertyProvider_TMPro_TMP_SpriteGlyph.cs using Guid(ccf99d4f81c7f2d4e88960c513b9d4bd) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aca4b744471f4520b5b1808b6561b98c') in 0.011166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers/PropertyProvider_UnityEngine_TextCore_GlyphRect.cs
+  artifactKey: Guid(c3fa9e1b5224843489e0c4512f954f1a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers/PropertyProvider_UnityEngine_TextCore_GlyphRect.cs using Guid(c3fa9e1b5224843489e0c4512f954f1a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'acb68bd1f9ce08db944445c6f2f7479d') in 0.007990 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers/PropertyProvider_UnityEngine_UI_AnimationTriggers.cs
+  artifactKey: Guid(8cd99225e89454b4f8e0e209b8154dc3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers/PropertyProvider_UnityEngine_UI_AnimationTriggers.cs using Guid(8cd99225e89454b4f8e0e209b8154dc3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6a73d778cc8dd016729cea7294aee1f7') in 0.008416 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/chartlet/1_interlude.png
+  artifactKey: Guid(1a68dbe98e6968644a22bd0575d47ac5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/chartlet/1_interlude.png using Guid(1a68dbe98e6968644a22bd0575d47ac5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '877e0891fd8e51f1991ed5d63d641de8') in 0.007832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/animation/logo_.controller
+  artifactKey: Guid(ba109118338c0a246b51e338e6f5968c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/animation/logo_.controller using Guid(ba109118338c0a246b51e338e6f5968c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a8737efa7db363262ed27d738583eba1') in 0.008195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers/PropertyProvider_UnityEngine_TextCore_Text_Character.cs
+  artifactKey: Guid(8621f2f6c551a1946926137a918b3762) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers/PropertyProvider_UnityEngine_TextCore_Text_Character.cs using Guid(8621f2f6c551a1946926137a918b3762) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cf52b0d42c9bab5521f616aa2ea694b8') in 0.008514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/chartlet/2.png
+  artifactKey: Guid(e4fef835d0d42b147b5410af9d087965) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/chartlet/2.png using Guid(e4fef835d0d42b147b5410af9d087965) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c3c183473f331dd0a0001365914df153') in 0.025553 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/chartlet/e.png
+  artifactKey: Guid(a819172883c8df64d988e7d3257bd4cc) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/chartlet/e.png using Guid(a819172883c8df64d988e7d3257bd4cc) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dd7e51d1202e7d18eec9b9fa0227eefb') in 0.006359 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers/PropertyProvider_UnityEngine_TextCore_Text_UnicodeLineBreakingRules.cs
+  artifactKey: Guid(9c5fc2a10eadea348986aab960a0d552) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers/PropertyProvider_UnityEngine_TextCore_Text_UnicodeLineBreakingRules.cs using Guid(9c5fc2a10eadea348986aab960a0d552) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3c9712005478e98882be1459a4947550') in 0.005812 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/chartlet/AI测试.psd
+  artifactKey: Guid(b910259164dd1fd47b817492828faf58) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/chartlet/AI测试.psd using Guid(b910259164dd1fd47b817492828faf58) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd52bfd087cf5ac21a9038d635da453e9') in 0.010660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers/PropertyProvider_UnityEngine_TextCore_Text_SpriteCharacter.cs
+  artifactKey: Guid(1b10d2aed2a458047999c85897db1656) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers/PropertyProvider_UnityEngine_TextCore_Text_SpriteCharacter.cs using Guid(1b10d2aed2a458047999c85897db1656) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '33e345ffc9db399b0caf53276565bd1d') in 0.008538 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Prefab/T_1 1.prefab
+  artifactKey: Guid(be046e1827e52844a93ff55bb489733d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Prefab/T_1 1.prefab using Guid(be046e1827e52844a93ff55bb489733d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '41e69fc590aebc9e19caa59ffe5c6e95') in 0.015002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/chartlet/j.png
+  artifactKey: Guid(6d0c156a28b22954fb945e2cf5f2fb39) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/chartlet/j.png using Guid(6d0c156a28b22954fb945e2cf5f2fb39) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4c5aa9f5cdb109f0a5678b20a4fc27e8') in 0.007997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers/PropertyProvider_UnityEngine_TextCore_Glyph.cs
+  artifactKey: Guid(260aecdd34b13bf418d3b351e8281156) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers/PropertyProvider_UnityEngine_TextCore_Glyph.cs using Guid(260aecdd34b13bf418d3b351e8281156) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '71f36b0eb3cd48ee7f3fd33aa8730a7a') in 0.008653 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/animation/Camera_star.anim
+  artifactKey: Guid(af5253a7324d1b24ea90ffaac5aff2a5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/animation/Camera_star.anim using Guid(af5253a7324d1b24ea90ffaac5aff2a5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f9ae7e6e5b1cf67ffc4672b34df4c92c') in 0.010058 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 7.37 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 1)
+Unloading 17 unused Assets / (93.4 KB). Loaded Objects now: 3931.
+Memory consumption went from 69.4 MB to 69.3 MB.
+Total: 15.937500 ms (FindLiveObjects: 0.593700 ms CreateObjectMapping: 0.138800 ms MarkObjects: 15.052200 ms  DeleteObjects: 0.151000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
